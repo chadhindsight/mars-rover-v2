@@ -95,7 +95,7 @@ function moveBackwards(rover) {
       rover.y++
     }
   }
-  //   Maybe alter boundary logic
+  //   Maybe alter boundary logic a bit
   else if (rover.direction === 'S') {
     rover.y--;
   }

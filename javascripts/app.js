@@ -89,7 +89,7 @@ function moveForward(rover) {
 function moveBackwards(rover) {
   if (rover.direction === 'N') {
     if (rover.y <= 0) {
-      console.log('Player cannot leave the field')
+      console.log('Player cannot leave the field!')
     }
     else {
       rover.y++

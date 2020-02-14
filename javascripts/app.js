@@ -7,8 +7,8 @@ let rover = {
   travelLog: []
 }
 
-// ====================
-function turnLeft(rover) {
+// =======LOGIC FOR TURNING=============
+const turnLeft = function (rover) {
 
   switch (rover.direction) {
     case 'N':
